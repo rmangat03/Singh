@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>KHALSA CLINIC</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="LOGO1.ico">
+    <link rel="stylesheet" type="text/css" href="Khalsa.css">
+    <script type="text/javascript" src="khalsa.js" defer></script>
+</head>
+
+<body>
+    <header id="current_page" class="six">
+        <h3>LOGIN</h3>
+
+    </header>
+    <input id="Search" type="text" value="Search" onkeypress="search(event)">
+    <img id="searchI" src="SearchI.png" width="20" height="20" alt="Search" onclick="search()">
+    <header>
+        <img id="head" src="header_img.png">
+    </header>
+    <a href="">
+        <div id="trigger_L">
+        <input id="login" type="button" value="DOCTOR LOGIN">
+        </div>
+        </a>
+        
+        <a href="register.html">
+            <div id="trigger_R">
+        
+                <input id="register" type="button" value="REGISTER">
+                </div>
+        </a>
+    <nav>
+        <a class="one" href="index.html">Home</a>
+        <a class="two" href="Products.html">Products</a>
+        <a class="three" href="">Doctors</a>
+        <a class="four" href="">Medicine</a>
+    </nav>
+    
+    <main id="login_register_main">
+    <h4 id="login_h4">Doctor Login</h4>
+    <form action="login.php" method="post">
+ 
+    <label>Email : </label>
+    <input class="formI" name="email" type="email" required>
+    <br>
+    <label> Password: </label>
+    <input class="formI" name="password" type="password" required>
+    <br>
+    <input class="formI" type="Submit" value="Login">        
+    </form>
+    </main>
+    <footer>
+        Khlasa Clinic &copyCopyright2017
+    </footer>
+</body>
+
+</html>
